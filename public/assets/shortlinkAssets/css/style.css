@@ -1,0 +1,1108 @@
+@media (prefers-reduced-motion: no-preference) {
+
+  :root {
+
+    scroll-behavior: smooth;
+
+  }
+
+}
+
+h2{
+
+  font-size: 2.5rem;
+
+  font-weight: bold;
+
+  color: #005045;
+
+  margin-left: 1.5rem;
+
+}
+
+a{
+
+  font-size: 1rem;
+
+  color: white;
+
+  text-decoration: none;
+
+  transition:ease-in-out .1s;
+
+}
+
+a:hover{
+
+  color: #33D69F;
+
+}
+
+p{
+
+  font-size: 1rem;
+
+  color: black;
+
+}
+
+
+
+html, body {
+
+    background-color: #b5d5c0;
+    font-weight: 400;
+    font-family: 'Poppins';
+
+    max-height: 100vh;
+  }
+
+
+
+
+
+nav{
+
+    background-color: #005045;
+
+    height : 6rem;
+
+    margin : auto;
+
+  
+
+ }
+
+ 
+
+ nav img {
+
+     margin-left : 0.1rem;
+
+ }
+
+
+
+ .text{
+
+    color: #fff;
+
+ }
+
+ 
+
+ #span1{
+
+   color: #fff;
+
+   font-family: 'Poppins';
+
+   font-weight: bold;
+
+   margin-left: 0.6rem;
+
+  }
+
+
+
+input[type="search"]::-webkit-search-decoration,
+
+input[type="search"]::-webkit-search-cancel-button,
+
+input[type="search"]::-webkit-search-results-button,
+
+input[type="search"]::-webkit-search-results-decoration { display: none; }
+
+input[type="search"]{
+
+    background-color: #005045;
+
+    font-size: 1rem;
+
+    color: #fff !important;
+
+    outline: none;
+
+    border: none;
+
+    padding-left: 1.5rem;
+
+    padding-right: 1.5rem;
+
+}
+
+
+
+  .search-list::placeholder{
+
+    color: #DFE3FA !important;
+
+}
+
+
+
+.list-search{
+
+    padding-bottom: 1rem;
+
+}
+
+.search-list{
+
+    width: 100%;
+
+    padding : .9rem .4rem .9rem .5rem; 
+
+    margin-bottom: 1rem;
+
+    
+
+}
+
+.search-icon{
+
+    right: 6rem;
+
+    float: right;
+
+}
+
+  .icon{
+
+    width: 25%;
+
+}
+
+
+
+.list-container{
+
+    padding: 8rem 0 !important;
+
+}
+
+.list-box{
+
+    gap: 3rem;
+
+}
+
+.list-button-box{
+
+  width: 12.5rem;
+
+  gap: 1rem;
+
+
+
+}
+
+
+
+.btn-tambah{
+
+  /*padding : .8rem .6rem .6rem .8rem; */
+
+  background-color: #005045 ; 
+
+  border: none;
+
+  gap: .6rem;
+
+  transition: all .5s;
+
+  height: 3.1rem;
+
+  padding: 1.6rem 1.6rem 1.6rem 1.25rem;
+
+  margin-left: 10.5rem;
+
+}
+
+.btn-tambah:hover{
+
+  box-shadow: rgb(100 100 111 / 20%) 0px 7px 29px 0px;
+
+  background-color: #287761;
+
+}
+
+
+
+.p-add{
+
+  font-size: .6rem;
+
+  color: #fff;
+
+  padding-top: .2rem .2rem .2rem .4rem;
+
+  transition: all .5s;
+
+}
+
+  
+
+.list-link{
+
+  flex-direction: column;
+
+  box-shadow: rgb(0 0 0 / 24%) 0px 3px 8px;
+
+  border-radius: 10px;
+
+}
+
+.link{
+
+  
+
+  border-radius: 10px;
+
+  align-items: center;
+
+  justify-content: space-between;
+
+  background-color: #287761 ;
+
+}
+
+
+
+.list-wrap{
+
+  display: flex;
+
+  flex-direction: column;
+
+  gap: 2rem;
+
+}
+
+.link-address{
+
+  font-size: 0.8rem;
+
+  font-weight: bold;
+
+}
+
+.link-address:hover{
+
+  color: #33D69F;
+
+}
+
+.btn-detail{
+
+  gap: .3rem;
+
+  border : none;
+
+  width: 120px;
+
+  padding: .6rem 1rem;
+
+  background-color: #b5d5c0 ;
+
+  transition: all .5s;
+
+}
+
+
+
+.btn-detail:hover, .btn-detail2:hover{
+
+  background-color: #005045;
+
+  box-shadow: rgba(50, 50, 20, 0.25) 0px 2px 5px -1px, rgba(0, 0, 0, 0.3) 0px 1px 3px -1px;
+
+}
+
+.btn-detail:hover .p-detail, 
+
+.btn-detail2:hover .p-detail{  
+
+  color: #b5d5c0 !important;
+
+}
+
+.btn-detail:hover .round{  
+
+  background: #b5d5c0;
+
+}
+
+.round{
+
+  width: .8rem;
+
+  height: .8rem;
+
+  border-radius: 50%;
+
+  background: #287761;
+
+  transition: all .5s;
+
+}
+
+.p-detail{
+
+  padding-top: 0.1rem;
+
+  padding-right: 0.1;
+
+  color: #005045;
+
+  font-weight: 600;
+
+  transition: all .5s;
+
+}
+
+
+
+.icon-link-box{
+
+  gap: 1.5rem;
+
+}
+
+
+
+
+
+#edit, #hapus{
+
+  width: 50%;
+
+}
+
+
+
+#span1:hover{
+
+  color: #fff;
+
+}
+
+
+
+#login {
+
+  position: absolute;
+
+  top: 50%;
+
+  left: 50%;
+
+  transform: translate(-50%, -50%);
+
+ 
+
+}
+
+
+
+#card-login {
+
+  background-color: #005045;
+
+  border-radius: 25px;
+
+  height: 450px;
+
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.19), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+
+
+
+}
+
+
+
+.custom-shape-divider-bottom-1650470489 {
+
+  position: absolute;
+
+  bottom: 0;
+
+  left: 0;
+
+  width: 100%;
+
+  overflow: hidden;
+
+  line-height: 0;
+
+  transform: rotate(180deg);
+
+  border-radius: 25px;
+
+}
+
+
+
+.custom-shape-divider-bottom-1650470489 svg {
+
+  position: relative;
+
+  display: block;
+
+  width: calc(109% + 1.3px);
+
+  height: 62px;
+
+  transform: rotateY(180deg);
+
+  border-radius: 25px;
+
+}
+
+
+
+.custom-shape-divider-bottom-1650470489 .shape-fill {
+
+  fill: #69A494;
+
+}
+
+
+
+#btn-login {
+    background-color: #69A494;
+    color: white;
+}
+
+#btn-login:hover{
+  background-color: #33D69F;
+}
+
+
+
+#card-tambah, #card-ubah, #card-detail {
+
+  border-radius: 15px;
+
+  padding: 20px 20px;
+
+  background-color: #287761;
+
+  color: white;
+
+}
+
+
+
+.detail-wrap,
+
+.detail-link-box {
+
+  width: 48%;
+
+  padding: 2rem 2rem;
+
+  border: 1px solid transparent !important;
+
+  border-radius: 10px !important;
+
+  background-color: #287761;
+
+}
+
+
+
+.detail-status {
+
+  gap: 1rem;
+
+}
+
+
+
+.btn-detail2 {
+
+  gap: 0.5rem;
+
+  border: none;
+
+  width: 120px;
+
+  padding: 0.6rem 1rem;
+
+  background-color: #ffe080;
+
+  cursor: context-menu !important;
+
+}
+
+.bem{
+  font-size: 16px;
+  color: white;
+}
+.judul{
+  font-size: 45px; 
+  font-weight: 600;
+}
+.kata{
+  font-size: 26px; 
+  font-weight: 500;
+}
+
+@media only screen and (max-width:1920px) {
+
+    .row {
+
+        --bs-gutter-x: 0 !important;
+
+    }
+
+}
+
+
+
+
+
+@media only screen and (max-width: 600px) {
+
+    #span1{
+
+        visibility: hidden;
+
+    }
+
+    .icon-link-box{
+
+        gap : .8rem !important;
+
+    }
+
+    .daftar{
+
+      margin-top:10px;
+
+      font-size:20px;
+
+    }
+
+    .btn-tambah{
+
+      gap: 10px;
+
+      transition: all .5s;
+
+      height: 50px;
+
+      padding: 15px 20px 15px 25px;
+
+      margin-left: 120px;
+
+    }
+
+    .p-add{
+
+      font-size: .6rem;
+
+      color: #fff;
+
+      padding-top: .2rem .2rem .2rem .4rem;
+
+      transition: all .5s;
+
+    }
+
+    
+
+    .input-group-text{
+
+        font-size: .6rem;
+
+        padding: 12px 5px 12px 5px;
+
+    }
+    .bem{
+      font-size: 15px;
+    }
+    .judul{
+      font-size: 35px; 
+      font-weight: 600;
+    }
+    .kata{
+      font-size: 22px; 
+      font-weight: 500;
+    }
+
+}
+
+
+
+
+
+@media only screen and (max-width: 435px){
+
+    #span-1{
+
+        visibility: show !important;
+
+        font-size: 1rem !important;
+
+    }
+
+    .list-button-box {
+
+        width: 10.5rem !important;
+
+    }
+
+    .btn-tambah {
+
+        margin-left: 107px !important;
+
+    }
+
+    
+
+    .btn-tambah span img{
+
+        width: 21px !important;
+
+    }
+
+    
+
+    .p-add a{
+
+        font-size: .8rem !important;
+
+    }
+
+    
+
+    .daftar {
+
+        font-size: 1.25rem !important;
+
+    }
+
+    .round{
+
+        display:none;
+
+    }
+
+    .link {
+
+        padding: 1.5rem 1rem !important;
+
+    }
+
+    
+
+    .btn-detail {
+
+        width: 68px !important;
+
+        padding: .6rem 0rem !important;
+
+        font-size: .6rem;
+
+    }
+
+    
+
+    .p-detail {
+
+        padding-top: 0.1rem;
+
+        padding-right: 0.1;
+
+        font-size: 0.7rem !important;
+
+    }
+
+    
+
+    .round {
+
+        width: .5rem !important;
+
+        height: .5rem !important;
+
+    }
+
+    
+
+    .link-address {
+
+        font-size: 0.55rem !important;
+
+        font-weight: bold;
+
+    }
+
+    
+
+   .icon-link-box {
+
+        gap: 0.4rem !important;
+
+        width: 83px !important;
+
+    }
+
+
+
+    .badge {
+
+        display: inline-block;
+
+        padding: 0.7em !important;
+
+        font-size: .5em !important;
+
+    }
+
+    .btn-outline-success {
+
+        margin-right: 0.5rem;
+
+    }
+
+    /*CSS DETAIL PAGE*/
+
+    
+
+    .detail-wrap, .detail-link-box {
+
+        width: 100%;
+
+    }
+
+    
+
+    .card-title,
+
+    .card-text{
+
+        font-size: 1rem !important;
+
+    }
+
+    .card-body .btn-detail{
+
+        width: 40% !important;
+
+    }
+
+    
+
+     .input-group-text{
+
+        font-size: .6rem;
+
+        padding: 12px 5px 12px 5px;
+
+    }
+
+    .bem{
+      font-size: 13px;
+    }
+    .judul{
+      font-size: 30px; 
+      font-weight: 600;
+    }
+    .kata{
+      font-size: 17px; 
+      font-weight: 500;
+    }
+
+}
+
+
+
+@media only screen and (max-width: 415px){
+
+    .navbar{
+
+        flex-wrap: nowrap;
+
+    }
+
+    .navbar-brand {
+
+        margin-right: 0 !important;
+
+    }
+
+    .btn-tambah {
+
+        margin-left: 78px !important;
+
+    }
+
+    .btn-outline-success {
+
+        margin-right: 0.5rem;
+
+    }
+    .bem{
+      font-size: 14px;
+    }
+
+}
+
+
+
+@media only screen and (max-width: 395px){
+
+    .navbar-brand {
+
+        width: 50% !important;
+
+        margin-right: 0 !important;
+
+    }
+
+    
+
+    .btn-detail {
+
+        width: 70px !important;
+
+        padding: .5rem 0rem !important;
+
+        align-items: baseline !important;
+
+        font-size: .5rem;
+
+    }
+
+    
+
+    .link-address {
+
+        font-size: 0.625rem !important;
+
+        font-weight: bold;
+
+    }
+
+    
+
+    .btn-tambah {
+
+        gap: 16px;
+
+        height: 50px;
+
+        padding: 13px 10px 10px 23px;
+
+        margin-left: 55px !important;
+
+    }
+
+    
+
+    .icon-link-box {
+
+        gap: 0.4rem !important;
+
+        width: 60px !important;
+
+    }
+
+    
+
+    .link-address {
+
+        font-size: 0.5rem !important;
+
+        font-weight: bold;
+
+    }
+
+    
+
+    .badge {
+
+        display: inline-block;
+
+        padding: 0.5em !important;
+
+        font-size: .5em !important;
+
+        width: 30px;
+
+    }
+
+    
+
+    .p-detail {
+
+        padding-top: 0.1rem;
+
+        padding-right: 0.1;
+
+        font-size: 0.6rem !important;
+
+    }
+
+    .btn-outline-success {
+
+        margin-right: 0.7rem;
+
+    }
+    .bem{
+      font-size: 12.3px;
+    }
+
+}
+
+
+
+@media only screen and (max-width: 365px){
+
+    .link-address {
+
+        font-size: 0.5rem !important;
+
+        font-weight: bold;
+
+    }
+
+
+
+    .icon-link-box {
+
+        gap: 0.7rem !important;
+
+        width: 40px !important;
+
+        gap: -0.5rem;
+
+        flex-direction: column !important;
+
+    }
+
+    
+
+    .btn-tambah {
+
+        gap: 16px;
+
+        height: 43px;
+
+        padding: 13px 10px 10px 23px;
+
+        margin-left: 73px !important;
+
+        width: 80% !important;
+
+    }
+
+    
+
+    .btn-tambah span img {
+
+        width: 15px !important;
+
+    }
+
+    
+
+    .p-add a {
+
+        font-size: .6rem !important;
+
+    }
+    .bem{
+      font-size: 10px;
+    }
+}
+
+
+
+@media only screen and (max-width: 335px){
+
+   .btn-tambah{
+
+        width: 80% !important;
+
+        gap: 16px;
+
+        height: 43px;
+
+        padding: 12px 10px 10px 23px;
+
+        margin-left: 34px !important;
+
+    }
+
+    
+
+    .btn-tambah span img {
+
+        width: 15px !important;
+
+    }
+
+    
+
+    .p-add a {
+
+        font-size: .6rem !important;
+
+    }
+
+    .link-address {
+
+        font-size: 0.45rem !important;
+
+        font-weight: bold;
+
+    }
+
+    
+
+    .btn-detail {
+
+        width: 50px !important;
+
+        padding: .5rem 0rem !important;
+
+        align-items: baseline !important;
+
+    }
+
+    
+
+    .p-detail {
+
+        padding-top: 0.1rem;
+
+        font-size: 0.6rem !important;
+
+    }
+
+    .bem{
+      font-size: 10px;
+    }
+}
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
